@@ -12,6 +12,10 @@
 		B9092D0229FCCE0C00269270 /* Date+RetrievingTheCurrentDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9092D0129FCCE0C00269270 /* Date+RetrievingTheCurrentDate.swift */; };
 		B9092D0429FCCED500269270 /* Date+GettingTemporalBoundaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9092D0329FCCED500269270 /* Date+GettingTemporalBoundaries.swift */; };
 		B9092D0629FCCFC400269270 /* Date+ComparingDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9092D0529FCCFC400269270 /* Date+ComparingDates.swift */; };
+		B9092D0929FCDB1700269270 /* Date+GettingTimeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9092D0829FCDB1700269270 /* Date+GettingTimeIntervals.swift */; };
+		B9092D0B29FCDEB700269270 /* Date+AddingOrSubtractingATimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9092D0A29FCDEB700269270 /* Date+AddingOrSubtractingATimeInterval.swift */; };
+		B9092D0D29FCE01D00269270 /* Date+FormattingADate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9092D0C29FCE01D00269270 /* Date+FormattingADate.swift */; };
+		B9092D0F29FCEFF100269270 /* Date+ModifyingADateFormatStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9092D0E29FCEFF100269270 /* Date+ModifyingADateFormatStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +37,10 @@
 		B9092D0129FCCE0C00269270 /* Date+RetrievingTheCurrentDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+RetrievingTheCurrentDate.swift"; sourceTree = "<group>"; };
 		B9092D0329FCCED500269270 /* Date+GettingTemporalBoundaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+GettingTemporalBoundaries.swift"; sourceTree = "<group>"; };
 		B9092D0529FCCFC400269270 /* Date+ComparingDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+ComparingDates.swift"; sourceTree = "<group>"; };
+		B9092D0829FCDB1700269270 /* Date+GettingTimeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+GettingTimeIntervals.swift"; sourceTree = "<group>"; };
+		B9092D0A29FCDEB700269270 /* Date+AddingOrSubtractingATimeInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+AddingOrSubtractingATimeInterval.swift"; sourceTree = "<group>"; };
+		B9092D0C29FCE01D00269270 /* Date+FormattingADate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+FormattingADate.swift"; sourceTree = "<group>"; };
+		B9092D0E29FCEFF100269270 /* Date+ModifyingADateFormatStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+ModifyingADateFormatStyle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +74,24 @@
 			isa = PBXGroup;
 			children = (
 				B9092CF829FCC6E900269270 /* main.swift */,
+				B9092D0729FCDADA00269270 /* Date+ */,
+			);
+			path = DatePr;
+			sourceTree = "<group>";
+		};
+		B9092D0729FCDADA00269270 /* Date+ */ = {
+			isa = PBXGroup;
+			children = (
 				B9092CFF29FCC6F900269270 /* Date+CreatingADate.swift */,
 				B9092D0129FCCE0C00269270 /* Date+RetrievingTheCurrentDate.swift */,
 				B9092D0329FCCED500269270 /* Date+GettingTemporalBoundaries.swift */,
 				B9092D0529FCCFC400269270 /* Date+ComparingDates.swift */,
+				B9092D0829FCDB1700269270 /* Date+GettingTimeIntervals.swift */,
+				B9092D0A29FCDEB700269270 /* Date+AddingOrSubtractingATimeInterval.swift */,
+				B9092D0C29FCE01D00269270 /* Date+FormattingADate.swift */,
+				B9092D0E29FCEFF100269270 /* Date+ModifyingADateFormatStyle.swift */,
 			);
-			path = DatePr;
+			path = "Date+";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,8 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9092D0D29FCE01D00269270 /* Date+FormattingADate.swift in Sources */,
+				B9092D0929FCDB1700269270 /* Date+GettingTimeIntervals.swift in Sources */,
 				B9092CF929FCC6E900269270 /* main.swift in Sources */,
+				B9092D0B29FCDEB700269270 /* Date+AddingOrSubtractingATimeInterval.swift in Sources */,
 				B9092D0029FCC6F900269270 /* Date+CreatingADate.swift in Sources */,
+				B9092D0F29FCEFF100269270 /* Date+ModifyingADateFormatStyle.swift in Sources */,
 				B9092D0429FCCED500269270 /* Date+GettingTemporalBoundaries.swift in Sources */,
 				B9092D0229FCCE0C00269270 /* Date+RetrievingTheCurrentDate.swift in Sources */,
 				B9092D0629FCCFC400269270 /* Date+ComparingDates.swift in Sources */,

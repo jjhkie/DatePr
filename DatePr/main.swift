@@ -7,8 +7,7 @@
 
 import Foundation
 
+let dateString = "2020-09-16"
 let date = Date()
 
-
-
-print(date._distacne)
+date._calendar()
